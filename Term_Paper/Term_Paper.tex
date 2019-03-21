@@ -1,0 +1,123 @@
+% In Latex the % symbol will indicate a comment. Text following the % symbol will not appear in the generated document and allow you to annotate your latex file
+% This document is a modified version of the "sample document" provided by the American Journal of Physics through their author's guide.
+
+\documentclass[prl,twocolumn]{revtex4-1}  % The "prl" tells latex to use the physical review letters formatting with one column from the revtex4.1 document class
+%\documentclass[prl,preprint,linenumbers]{revtex4-1}  % other options can change formatting for various purposes. For example you can include line numbers with "linenumbers" and the "preprint" to make things easier to edit. Similarly you could use "singlecolumn" and "doublespace"
+% NOTE: only a single documentclass should be declared. Comment out the other one. You can try changing styles and classes and compiling the document to see one of the benefits of Latex, the ease of reformatting.
+\usepackage{chemformula}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{array, booktabs, makecell}
+\usepackage{siunitx, mhchem}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{physics}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\usepackage{color}
+\usepackage{listings}
+ \lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+ 
+
+
+
+\usepackage{amsmath}  % needed for \tfrac, \bmatrix, etc.
+\usepackage{amsfonts} % needed for bold Greek, Fraktur, and blackboard bold
+\usepackage{graphicx} % needed for figures
+\usepackage{hyperref} % needed for clickable links
+\usepackage{lipsum} 
+\newcommand{\term}[0]{Fall 2018} 
+
+\begin{document}
+
+% Be sure to use the \title, \author, \affiliation, and \abstract macros
+% to format your title page.  Don't use lower-level macros to  manually
+% adjust the fonts and centering.
+
+\title{ Stat-Mech Paper }
+% In a long title you can use \\ to force a line break at a certain location.
+\author{Leticia Damian }
+\email{Damia005@cougars.csusm.edu}
+\author{Joshua Lucas}
+\email{Lucas035@cougars.csusm.edu
+\author{Rowan Ranjbar}
+\email{ranjb001@cougars.csusm.edu}
+} 
+
+% optional
+% If there were a second author at the same address, we would put another 
+% \author{} statement here.  Don't combine multiple authors in a single
+% \author statement.
+% Please provide a full mailing address here.
+\affiliation{Department of Physics, California State University San Marcos, San Marcos, CA 92096}
+
+
+
+% See the REVTeX documentation for more examples of author and affiliation lists.
+% or google
+
+%\date{\today}
+
+\begin{abstract}
+
+\end{abstract}
+ 
+
+\maketitle % title page is now complete
+
+\section{Introduction}
+
+\lipsum
+
+
+
+
+
+
+\clearpage
+\section{Conclusion}
+\lipsum
+\appendix*   % Omit the * if there's more than one appendix.
+
+
+\section{ Acknowledgments}
+
+ All figures were created in Matlab and the paper was typeset in \LaTeX.
+\begin{acknowledgments}
+
+
+\end{acknowledgments}
+
+\begin{thebibliography}{99}
+% The numeral (here 99) in curly braces is nominally the number of entries in
+% the bibliography. It's supposed to affect the amount of space around the
+% numerical labels, so only the number of digits should matter--and even that
+% seems to make no discernible difference.
+
+\bibitem{Newton} \textit{Newton's Principia : The Mathematical Principles of Natural Philosophy}.Newton, Isaac, 1642-1727.  New-York :Daniel Adee, 1846.
+
+
+\end{thebibliography}
+
+\end{document}
