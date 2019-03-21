@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  21 MAR 2019 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  21 MAR 2019 11:08
 entering extended mode
 **./Term_Paper.tex
 (Term_Paper.tex
@@ -2581,16 +2581,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `Term_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: 79AB3E6CFAD7EAA2994EB3A9DA842B83;352.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 33076 strings out of 493303
- 660695 string characters out of 3129785
- 831598 words of memory out of 3000000
+ 33077 strings out of 493303
+ 660708 string characters out of 3129785
+ 832598 words of memory out of 3000000
  36225 multiletter control sequences out of 15000+200000
  538681 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2605,9 +2600,9 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Us
 ers/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti9.pfb>
-Output written on Term_Paper.pdf (2 pages, 109706 bytes).
+Output written on Term_Paper.pdf (2 pages, 111666 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
