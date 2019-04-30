@@ -1,0 +1,428 @@
+% In Latex the % symbol will indicate a comment. Text following the % symbol will not appear in the generated document and allow you to annotate your latex file
+% This document is a modified version of the "sample document" provided by the American Journal of Physics through their author's guide.
+
+\documentclass[prl,onecolumn]{revtex4-1}  % The "prl" tells latex to use the physical review letters formatting with one column from the revtex4.1 document class
+%\documentclass[prl,preprint,linenumbers]{revtex4-1}  % other options can change formatting for various purposes. For example you can include line numbers with "linenumbers" and the "preprint" to make things easier to edit. Similarly you could use "singlecolumn" and "doublespace"
+% NOTE: only a single documentclass should be declared. Comment out the other one. You can try changing styles and classes and compiling the document to see one of the benefits of Latex, the ease of reformatting.
+\usepackage{chemformula}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{array, booktabs, makecell}
+\usepackage{siunitx, mhchem}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{physics}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\usepackage{color}
+\usepackage{listings}
+ \lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+ 
+
+
+
+\usepackage{amsmath}  % needed for \tfrac, \bmatrix, etc.
+\usepackage{amsfonts} % needed for bold Greek, Fraktur, and blackboard bold
+\usepackage{graphicx} % needed for figures
+\usepackage{hyperref} % needed for clickable links
+\usepackage{lipsum} 
+\newcommand{\term}[0]{Fall 2018} 
+
+\begin{document}
+
+% Be sure to use the \title, \author, \affiliation, and \abstract macros
+% to format your title page.  Don't use lower-level macros to  manually
+% adjust the fonts and centering.
+
+\title{ Lunar Base Research Data }
+% In a long title you can use \\ to force a line break at a certain location.
+
+\author{Joshua Lucas}
+\email{Lucas035@cougars.csusm.edu}
+
+
+
+% optional
+% If there were a second author at the same address, we would put another 
+% \author{} statement here.  Don't combine multiple authors in a single
+% \author statement.
+% Please provide a full mailing address here.
+\affiliation{Department of Physics, California State University San Marcos, San Marcos, CA 92096}
+
+
+
+% See the REVTeX documentation for more examples of author and affiliation lists.
+% or google
+
+%\date{\today}
+
+\begin{abstract}
+This is a collection of research material, formulas and ideas for designing a small lunar base
+\end{abstract}
+ 
+
+\maketitle % title page is now complete
+
+\section{Lack of exposed ice inside lunar south pole Shackleton Crater}
+This paper explores the Shackleton crater on the lunar south pole for signs of water.
+``whether or not an amount of concentrated hydrogen on the lunar poles (1) forms water-ice is both a scientifically intriguing issue and a potentially important research subject in order for humans to settle on the Moon and travel further into space. Possible reservoirs of hydrogen on nie lunar poles are permanently shadowed areas (PSAs), which receive no direct sunlight and are extremely cold (2,3). Because the present rotation inclination of the Moon is nearly zero (~1.5? from normal to the ecliptic plane), topographic lows on the lunar poles become PSAs. Shackleton Crater, which lies at the lunar south pole, has therefore been considered as a possible water-ice reservoir in its PSA. Bistatic radar observations made by the Clementine probe (4,5)'' from the opening paragraph. \citep{Haruyama}
+
+
+\section{Hybrid life support systems with integrated fuel cells and photobioreactors for a lunar base}
+This paper has many tables and chart for human needs as well as air scrubbing with algae, and electical needs, ``Table 3 Minimum and expanded mass inputs and outputs of human needs'' on page 171. \citep{Belz}
+
+
+\section{Age makes Moon crater attractive site for lunar base}
+Nature online article describing the Shackelton crater as a prime canidate for base with rims of crater year round sunlight.
+``
+
+A piece of prime real estate on the Moon is much older than previously thought, which means there’s been more time for water ice to have collected there. The conclusion, based on analysis of data from the SMART-1 mission, makes the crater a very attractive site for a lunar colony, according to scientists behind the study.
+moonShackleton crater may be blessed with ice deposits in its darkened corners.NASA/JPL/USGS
+
+Shackleton crater is 20 kilometres across and sits near the Moon’s south pole. It is being eyed as a site for a lunar base because its bottom is permanently shadowed — a prerequisite for storing ice, if it exists there. Conversely, the crater's rim seems to benefit from almost year-round sunshine, essential for any solar-powered base.
+
+Scientists led by Paul Spudis of the Lunar and Planetary Institute in Houston, Texas, have now used images from the European Space Agency’s SMART-1 probe to work out the crater’s age from a careful count of the smaller impact craters around it. “We found it to be much older than previously thought,” says team member Ben Bussey of the Applied Physics Laboratory in Laurel, Maryland.
+
+The Solar System is full of debris that bombards all the bodies within it at roughly the same rate, so counting the craters and noting how they overlap can give an indication of age. Previous estimates of the crater’s age had ranged from less than 1 billion to 3.3 billion years old.
+
+But the more detailed images from SMART-1's Advanced Moon micro-Imager Experiment (AMIE) allowed the team to age Shackelton as roughly 3.6 billion years old. The work is published in Geophysical Research Letters1.
+Home from home
+
+This is good news for humans thinking about staying on the Moon for a while. “There’s been a lot more time for possible ice to accumulate,” says Bussey, “and over billions of years it is feasible that you could build up a significant reserve.”
+
+There is still debate about whether ice could have been brought to the Moon by comets, or delivered as the hydrogen-rich solar wind reacted with oxygen in the Moon’s surface rocks to produce thin films of water.
+
+Bussey’s theory that an older crater will have allowed more ice to accumulate will stand up only if the ice came to the Moon on comets, says Manuel Grande of the University of Wales, Aberystwyth, UK, who worked on the SMART-1 mission. A solar wind source could deposit ice, but at such a slow rate that losses would cancel out any large-scale accumulation of ice.
+
+The presence of any water on the Moon still hasn’t been proved conclusively, adds Grande. But evidence of hydrogen was found at both poles by NASA’s Lunar Prospector probe in 1999. “It seems perverse to think there’s hydrogen there without it being water,” Grande says.
+
+Future data will come from the Japanese space agency and its Kaguya mission, launched in September 2007, says Bussey. Other future Moon fact-finding missions include NASA’s Lunar Reconnaissance Orbiter, now expected to launch in early 2009 after a recent delay. The Indian Space agency is launching Chandrayaan-1 in September, with instruments on board to work out the geology and chemistry of the Moon’s surface, especially at the poles. "Between [these missions] we hope they will map out the most promising locations that will have ice," says Bussey. 
+
+    References
+        Spudis, P. D. et al. Geophys. Res. Lett., 35, L14201 (2008) | Article |''
+
+
+\section{Analysis of a Lunar Base Structure Using the Discrete-Element Method}
+This paper lists some insulating characteristics of lunar regolith.
+``As the moon lacks an atmosphere, frequent and strong micro-meteorite bombardment endangers human life (meteorites andmicrometeorites arrive to the surface with approximately a10–30 km=s velocity''\citep{Toth}
+``According to Silberberg et al. (1985), even when levels of solaractivity and cosmic radiation are low, the annual dose thathumans on the surface are exposed to is about 6–10 times morethan permissible, and the intensity is particularly high duringperiods of solar flares''\citep{Toth}
+
+
+\section{Influence of lunar topography on simulated surface temperature}
+
+This paper has many temperature maps of the lunar surface and corrections for topogrophy. It contains formulas for temperature based on latitude and longitude\citep{Zhiguo}
+
+\section{Evidence for surface water ice in the lunar polar regions using reflectance measurements from the Lunar Orbiter Laser Altimeter and temperature measurements from the Diviner Lunar Radiometer Experiment}
+from abstract ``•The lunar South Pole exhibits enhanced reflectance at maximum temperatures below 110K that may indicate the presence of widespread surface water ice.•Anomalously bright locations are found at both the North and South poles in regions of permanent shadow that may represent local concentrations of water frost.•Reflectance excursions near 200K and 300K may indicate the presence of volatiles more refractory than water ice.•There is a general correlation of temperature and reflectance that is attributed to the effect of space weathering. We find that the reflectance of the lunar surface within 5° of latitude of the South Pole increases rapidly with decreasing temperature, near ∼110K, behavior consistent with the presence of surface water ice. The North polar region does not show this behavior, nor do South polar surfaces at latitudes more than 5° from the pole. This South pole reflectance anomaly persists when analysis is limited to surfaces with slopes less than 10° to eliminate false detection due to the brightening effect of mass wasting, and also when the very bright south polar crater Shackleton is excluded from the analysis. We also find that south polar regions of permanent shadow that have been reported to be generally brighter at 1064nm do not show anomalous reflectance when their annual maximum surface temperatures are too high to preserve water ice. This distinction is not observed at the North Pole. The reflectance excursion on surfaces with maximum temperatures below 110K is superimposed on a general trend of increasing reflectance with decreasing maximum temperature that is present throughout the polar regions in the north and south; we attribute this trend to a temperature or illumination-dependent space weathering effect (e.g. Hemingway et al., 2015). We also find a sudden increase in reflectance with decreasing temperature superimposed on the general trend at 200K and possibly at 300K. This may indicate the presence of other volatiles such as sulfur or organics. We identified and mapped surfaces with reflectances so high as to be unlikely to be part of an ice-free population. In this south we find a similar distribution found by Hayne et al. (2015) based on UV properties. In the north a cluster of pixels near that pole may represent a limited frost exposure.'' Maximum and minimum temperatures north south pole
+\citep{Fisher}
+
+
+\section{Evidence for exposed water ice in the Moon's south polar regions from Lunar Reconnaissance Orbiter ultraviolet albedo and temperature measurements}
+This one had the circled out figures
+``Diviner measurements show that the Moon’s polar cold trapsform a temperature population distinct from the illuminated ter-rain, based on both annual maximum''
+\citep{Hayne}
+
+
+\section{Thermal behavior of regolith at cold traps on the moon's southpole: Revealed by Chang'E-2 microwave radiometer data}
+`` the inversion results showed that the maximum difference of diurnal temperatures between “wet” and dry regolith were no more than 0.5K. That is, the effect of water ice on subsurface thermal behavior can be neglected. ''
+\citep{Wei}
+
+
+\section{Optimized traverse planning for future polar prospectors based on lunar topography}
+Modeling energy usage of a lunar rover
+sites that remain illuminated for 91.8\% of the year. eclipsed for 104 hours.
+Average Sun visibility illumination for longitude latitude.
+\citep{Speyerer}
+
+\section{Site selection and traverse planning to support a lunar polar rover mission: A case study at Haworth Crater}
+site planning and illumination graphics
+\citep{Heldmann}
+
+\section{Persistently illuminated regions at the lunar poles: Ideal sites for future exploration}
+Longest period in shadow, hours
+
+The Moon’s slightly tilted axis results in regions near the poles to remain permanently shadowed while other nearby areas have extended periods of illumination. Lighting conditions of the poles were previously studied with Clementine UVVIS data and topo-graphic models from Earth based radar and laser altimeters mounted on orbiting spacecraft. LROC complements these analyses with higher resolution data (up to meter scale) that delimit and al-low the quantification of lighting conditions near both lunar poles,which enable more precise landing site selections and traverse analyses for both human and robotic polar missions.
+\citep{Speyerer}
+
+
+\section{Illumination conditions at the lunar poles: Implications for future exploration}
+Illustration of the modeled average illumination for selected locations among the best-illuminated in each polar region. 
+\citep{Glaser}
+
+
+\section{Estimation of lunar surface temperatures and thermophysical properties: test of a thermal model in preparation of the MERTIS experiment onboard BepiColombo}
+Thermophysical surface and subsurface mode\\
+Heat capacity of the lunar regolith has been determinedfor different samples returned by the Apollo 11, 12, 14, 1\\
+hermal conductivityPorous material under vacuum conditions such as the lunar orhermean regolith transfers heat in two different ways: thefirst issolid conduction through particles and across interparticle con-tacts and the second is radiation across void spaces\\
+Many formulas\citep{Bauch}
+
+
+\section{Thermal conductivity of surficial lunar regolith estimated from Lunar Reconnaissance Orbiter Diviner Radiometer data}
+Temperture models for regolith
+\citep{Shuoran}
+
+\section{Characterisation of potential landing sites for the European Space Agency's Lunar Lander project}
+Lots of planning information and fundamental information
+\citep{Rosa}
+
+
+\section{The production of oxygen and metal from lunar regolith}
+Produce oxygen from rock.\citep{Schwandt}
+
+
+\section{Thermophysical property models for lunar regolith}
+many thermal equations\citep{Schreiner}
+
+\section{Scientific preparations for lunar exploration with the European Lunar Lander}
+Lots of Planning information, Dust plasma...\citep{Carpenter}
+
+\section{Analysis of landing site attributes for future missions targeting the rim of the lunar South Pole Aitken basin}
+Lots of data on the poles..\citep{Koebel}
+
+
+\section{Illumination conditions of the south pole of the Moon derived using Kaguya topography}
+Sout pole info 
+\citep{Bussey}
+
+
+
+\section{Illumination conditions of the lunar polar regions using LOLA topography}
+Illumination data
+\citep{Mazarico}
+
+\section{Illumination conditions at the lunar south pole using high resolution Digital Terrain Models from LOLA}
+More illimunation data\citep{Glaser1}
+
+\section{The global surface temperatures of the Moon as measured by the Diviner Lunar Radiometer Experiment}
+good temperature information
+\citep{Williams}
+
+
+\section{Design Considerations for LunarBase Photovoltaic Power Systems}
+Nasa Solar power info\citep{Hickman}
+\appendix*   % Omit the * if there's more than one appendix.
+
+\section{Heat storage and electricity generation in the Moon during the lunar night}
+More info\citep{Climent}
+
+\section{Performance analysis of a lunar based solar thermal power system with regolith thermal storage}solar thermal Power
+\citep{Lu}
+
+\section{Energy and provision management study: A research activity on fuel cell design and breadboarding for lunar surface applications supported by European Space Agency}
+Energy management study of fuel cells\citep{Barbera}
+
+\section{Exergy analysis of a lunar based solar thermal power system with finite-time thermodynamics}Solar thermal\citep{Yao}
+
+\section{The water treatment and recycling in 105-day bioregenerative life support experiment in the Lunar Palace 1}
+water treatment \citep{Xie}
+
+
+\section{Water management in a controlled ecological life support system during a 4-person-180-day integrated experiment: Configuration and performance}
+water treatment \citep{Zhang}
+
+
+
+
+
+
+
+
+
+
+\begin{thebibliography}{99}
+% The numeral (here 99) in curly braces is nominally the number of entries in
+% the bibliography. It's supposed to affect the amount of space around the
+% numerical labels, so only the number of digits should matter--and even that
+% seems to make no discernible difference.
+
+\bibitem{Zhang}Liangchang Zhang, Ting Li, Weidang Ai, Chunyan Zhang, Yongkang Tang, Qingni Yu, Yinghui Li,
+Water management in a controlled ecological life support system during a 4-person-180-day integrated experiment: Configuration and performance,
+Science of The Total Environment,
+Volume 651, Part 2,
+2019,
+Pages 2080-2086
+
+
+\bibitem{Xie}Beizhen Xie, Guorong Zhu, Bojie Liu, Qiang Su, Shengda Deng, Lige Yang, Guanghui Liu, Chen Dong, Minjuan Wang, Hong Liu,
+The water treatment and recycling in 105-day bioregenerative life support experiment in the Lunar Palace 1,
+Acta Astronautica,
+Volume 140,
+2017,
+Pages 420-426
+
+
+\bibitem{Yao}Xiaochen Lu, Wei Yao, Chao Wang, Rong Ma,
+Exergy analysis of a lunar based solar thermal power system with finite-time thermodynamics,
+Energy Procedia,
+Volume 158,
+2019,
+Pages 792-796
+
+
+\bibitem{Barbera}Orazio Barbera, Filippo Mailland, Scott Hovland, Giosuè Giacoppo,
+Energy and provision management study: A research activity on fuel cell design and breadboarding for lunar surface applications supported by European Space Agency,
+International Journal of Hydrogen Energy,
+Volume 39, Issue 26,
+2014,
+Pages 14079-14096
+
+\bibitem{Lu}Xiaochen Lu, Rong Ma, Chao Wang, Wei Yao,
+Performance analysis of a lunar based solar thermal power system with regolith thermal storage,
+Energy,
+Volume 107,
+2016,
+Pages 227-233
+
+\bibitem{Climent}Blai Climent, Oscar Torroba, Ricard González-Cinca, Narayanan Ramachandran, Michael D. Griffin,
+Heat storage and electricity generation in the Moon during the lunar night,
+Acta Astronautica,
+Volume 93,
+2014,
+Pages 352-358
+
+\bibitem{Hickman}Hickman, J.M., Curtis, H.B. \& Landis, G., 1990. Design considerations for lunar base photovoltaic power systems, Washington, DC] : [Springfield, Va.]: National Aeronautics and Space Administration
+
+
+\bibitem{Williams}J.P. Williams, D.A. Paige, B.T. Greenhagen, E. Sefton-Nash,
+The global surface temperatures of the Moon as measured by the Diviner Lunar Radiometer Experiment,
+Icarus,
+Volume 283,
+2017,
+Pages 300-325
+
+
+\bibitem{Glaser1}P. Gl{\"a}ser, F. Scholten, D. De Rosa, R. Marco Figuera, J. Oberst, E. Mazarico, G.A. Neumann, M.S. Robinson,
+Illumination conditions at the lunar south pole using high resolution Digital Terrain Models from LOLA,
+Icarus,
+Volume 243,
+2014,
+Pages 78-90
+
+
+\bibitem{Mazarico}E. Mazarico, G.A. Neumann, D.E. Smith, M.T. Zuber, M.H. Torrence,
+Illumination conditions of the lunar polar regions using LOLA topography,
+Icarus,
+Volume 211, Issue 2,
+2011,
+Pages 1066-1081
+
+
+\bibitem{Bussey}D.B.J. Bussey, J.A. McGovern, P.D. Spudis, C.D. Neish, H. Noda, Y. Ishihara, S.-A. Sørensen,
+Illumination conditions of the south pole of the Moon derived using Kaguya topography,
+Icarus,
+Volume 208, Issue 2,
+2010,
+Pages 558-564
+
+
+\bibitem{Koebel}David Koebel, Michele Bonerba, Daniel Behrenwaldt, Matthias Wieser, Carsten Borowy,
+Analysis of landing site attributes for future missions targeting the rim of the lunar South Pole Aitken basin,
+Acta Astronautica,
+Volume 80,
+2012,
+Pages 197-215
+
+\bibitem{Haruyama} Haruyama, J. et al., 2008. Lack of exposed ice inside lunar south pole Shackleton Crater. Science (New York, N.Y.), 322(5903), pp.938–9.
+
+
+\bibitem{Belz} Belz et al., 2011. Hybrid life support systems with integrated fuel cells and photobioreactors for a lunar base. Aerospace Science and Technology, pp.Aerospace Science and Technology.
+
+
+\bibitem{Sanderson} Sanderson, K., 2008. Age makes Moon crater attractive site for lunar base. Nature, pp.Nature, 7/28/2008.
+
+\bibitem{Toth}Toth, A.R. \& Bagi, K., 2011. Analysis of a Lunar Base Structure Using the Discrete-Element Method. Journal Of Aerospace Engineering, 24(3), pp.397–401.
+
+\bibitem{Zhiguo}Zhiguo, Meng et al., 2014. Influence of lunar topography on simulated surface temperature. Advances in Space Research, 54(10), pp.2131–2139.
+
+
+\bibitem{Fisher}Fisher et al., 2017. Evidence for surface water ice in the lunar polar regions using reflectance measurements from the Lunar Orbiter Laser Altimeter and temperature measurements from the Diviner Lunar Radiometer Experiment. Icarus, 292, pp.74–85.
+
+
+\bibitem{Hayne}Hayne et al., 2015. Evidence for exposed water ice in the Moon’s south polar regions from Lunar Reconnaissance Orbiter ultraviolet albedo and temperature measurements. Icarus, 255, pp.58–69.
+
+\bibitem{Wei}Wei, Li \& Wang, 2016. Thermal behavior of regolith at cold traps on the moon׳s south pole: Revealed by Chang׳E-2 microwave radiometer data. Planetary and Space Science, 122, pp.101–109.
+
+\bibitem{Speyerer}E.J. Speyerer et al. ptimized traverse planning for future polar prospectors based on lunar topography, Icarus, Volume 273, 2016, Pages 337-345
+
+\bibitem{Heldmann}Jennifer L. Heldmann, et al. Site selection and traverse planning to support a lunar polar rover mission: A case study at Haworth Crater,
+Acta Astronautica, Volume 127, 2016, Pages 308-320,
+
+\bibitem{Speyerer}Emerson J. Speyerer, Mark S. Robinson, Persistently illuminated regions at the lunar poles: Ideal sites for future exploration, Icarus, Volume 222, Issue 1, 2013, Pages 122-136,
+
+\bibitem{Glaser}P. Gl{\"a}ser, J. Oberst, G.A. Neumann, E. Mazarico, E.J. Speyerer, M.S. Robinson,
+Illumination conditions at the lunar poles: Implications for future exploration,
+Planetary and Space Science,
+Volume 162,
+2018,
+Pages 170-178,
+
+\bibitem{Bauch}Karin E. Bauch, Harald Hiesinger, Jörn Helbert, Mark S. Robinson, Frank Scholten,
+Estimation of lunar surface temperatures and thermophysical properties: test of a thermal model in preparation of the MERTIS experiment onboard BepiColombo,
+Planetary and Space Science,
+Volume 101,
+2014,
+Pages 27-36,
+
+\bibitem{Shuoran}Shuoran Yu, Wenzhe Fa,
+Thermal conductivity of surficial lunar regolith estimated from Lunar Reconnaissance Orbiter Diviner Radiometer data,
+Planetary and Space Science,
+Volume 124,
+2016,
+Pages 48-61
+
+
+\bibitem{Rosa}Diego De Rosa, Ben Bussey, Joshua T. Cahill, Tobias Lutz, Ian A. Crawford, Terence Hackwill, Stephan van Gasselt, Gerhard Neukum, Lars Witte, Andy McGovern, Peter M. Grindrod, James D. Carpenter,
+Characterisation of potential landing sites for the European Space Agency's Lunar Lander project,
+Planetary and Space Science,
+Volume 74, Issue 1,
+2012,
+Pages 224-246
+
+
+
+\bibitem{Schwandt}Carsten Schwandt, James A. Hamilton, Derek J. Fray, Ian A. Crawford,
+The production of oxygen and metal from lunar regolith,
+Planetary and Space Science,
+Volume 74, Issue 1,
+2012,
+Pages 49-56
+
+
+\bibitem{Schreiner}Samuel S. Schreiner, Jesus A. Dominguez, Laurent Sibille, Jeffrey A. Hoffman,
+Thermophysical property models for lunar regolith,
+Advances in Space Research,
+Volume 57, Issue 5,
+2016,
+Pages 1209-1222
+
+\bibitem{Carpenter}J.D. Carpenter, R. Fisackerly, D. De Rosa, B. Houdou,
+Scientific preparations for lunar exploration with the European Lunar Lander,
+Planetary and Space Science,
+Volume 74, Issue 1,
+2012,
+Pages 208-223
+
+ \end{thebibliography}
+
+\end{document}
