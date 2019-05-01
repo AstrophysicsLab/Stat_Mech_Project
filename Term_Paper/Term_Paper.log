@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  21 MAR 2019 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  30 APR 2019 19:53
 entering extended mode
 **./Term_Paper.tex
 (Term_Paper.tex
@@ -2572,20 +2572,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count344
-[1{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 No file Term_Paper.bbl.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
- (Term_Paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+[1{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+
+(Term_Paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `Term_Paper.out' has not changed.
-(rerunfilecheck)             Checksum: 79AB3E6CFAD7EAA2994EB3A9DA842B83;352.
+(rerunfilecheck)             Checksum: D23917A4D7CAF630AA81F95B4D92C294;416.
  ) 
 Here is how much of TeX's memory you used:
  33077 strings out of 493303
- 660708 string characters out of 3129785
- 832598 words of memory out of 3000000
+ 660714 string characters out of 3129785
+ 834598 words of memory out of 3000000
  36225 multiletter control sequences out of 15000+200000
  538681 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2593,16 +2593,18 @@ Here is how much of TeX's memory you used:
 <C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx9.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/admin/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/admin/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/admin/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Us
-ers/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti9.pfb>
-Output written on Term_Paper.pdf (2 pages, 111666 bytes).
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/admin/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/admin/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/admin/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/U
+sers/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on Term_Paper.pdf (1 page, 124896 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
