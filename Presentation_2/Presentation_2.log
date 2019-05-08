@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  8 MAY 2019 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.3)  8 MAY 2019 13:14
 entering extended mode
 **./Presentation_2.tex
 (Presentation_2.tex
@@ -1399,7 +1399,43 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
-{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package epstopdf Info: Source file: <Rowen1.eps>
+(epstopdf)                    date: 2019-05-08 13:08:31
+(epstopdf)                    size: 12316919 bytes
+(epstopdf)             Output file: <Rowen1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-08 13:10:11
+(epstopdf)                    size: 126804 bytes
+(epstopdf)             Command: <epstopdf --outfile=Rowen1-eps-converted-to.pdf
+ Rowen1.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+<Rowen1-eps-converted-to.pdf, id=53, 496.85625pt x 279.0425pt>
+File: Rowen1-eps-converted-to.pdf Graphic file (type pdf)
+<use Rowen1-eps-converted-to.pdf>
+Package pdftex.def Info: Rowen1-eps-converted-to.pdf  used on input line 90.
+(pdftex.def)             Requested size: 307.28987pt x 172.57877pt.
+ [2
+
+ <./Rowen1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Rowen2.eps>
+(epstopdf)                    date: 2019-05-08 13:09:04
+(epstopdf)                    size: 6976401 bytes
+(epstopdf)             Output file: <Rowen2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-08 13:10:51
+(epstopdf)                    size: 111080 bytes
+(epstopdf)             Command: <epstopdf --outfile=Rowen2-eps-converted-to.pdf
+ Rowen2.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+<Rowen2-eps-converted-to.pdf, id=86, 496.85625pt x 157.58875pt>
+File: Rowen2-eps-converted-to.pdf Graphic file (type pdf)
+<use Rowen2-eps-converted-to.pdf>
+Package pdftex.def Info: Rowen2-eps-converted-to.pdf  used on input line 99.
+(pdftex.def)             Requested size: 307.28987pt x 97.46353pt.
+ [3
+
+ <./Rowen2-eps-converted-to.pdf>] [4
 
 ]
 Package epstopdf Info: Source file: <LunarTempmaxavg.eps>
@@ -1410,18 +1446,19 @@ Package epstopdf Info: Source file: <LunarTempmaxavg.eps>
 (epstopdf)                    size: 196612 bytes
 (epstopdf)             Command: <epstopdf --outfile=LunarTempmaxavg-eps-convert
 ed-to.pdf LunarTempmaxavg.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
-<LunarTempmaxavg-eps-converted-to.pdf, id=83, 492.84125pt x 197.73875pt>
+<LunarTempmaxavg-eps-converted-to.pdf, id=145, 492.84125pt x 197.73875pt>
 File: LunarTempmaxavg-eps-converted-to.pdf Graphic file (type pdf)
 <use LunarTempmaxavg-eps-converted-to.pdf>
 Package pdftex.def Info: LunarTempmaxavg-eps-converted-to.pdf  used on input li
-ne 98.
+ne 115.
 (pdftex.def)             Requested size: 307.28987pt x 123.29675pt.
+ [5
 
-[3
+ <./LunarTempmaxavg-eps-converted-to.pdf>] [6
 
- <./LunarTempmaxavg-eps-converted-to.pdf>]
+]
 Package epstopdf Info: Source file: <Illum.eps>
 (epstopdf)                    date: 2019-05-08 12:27:40
 (epstopdf)                    size: 21975526 bytes
@@ -1430,18 +1467,18 @@ Package epstopdf Info: Source file: <Illum.eps>
 (epstopdf)                    size: 486830 bytes
 (epstopdf)             Command: <epstopdf --outfile=Illum-eps-converted-to.pdf 
 Illum.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
-<Illum-eps-converted-to.pdf, id=118, 532.99126pt x 465.74pt>
+<Illum-eps-converted-to.pdf, id=210, 532.99126pt x 465.74pt>
 File: Illum-eps-converted-to.pdf Graphic file (type pdf)
 <use Illum-eps-converted-to.pdf>
-Package pdftex.def Info: Illum-eps-converted-to.pdf  used on input line 108.
+Package pdftex.def Info: Illum-eps-converted-to.pdf  used on input line 131.
 (pdftex.def)             Requested size: 261.19826pt x 228.24303pt.
 
-Overfull \vbox (6.70062pt too high) detected at line 108
+Overfull \vbox (6.70062pt too high) detected at line 131
  []
 
-[4
+[7
 
  <./Illum-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <AM0.eps>
@@ -1452,23 +1489,21 @@ Package epstopdf Info: Source file: <AM0.eps>
 (epstopdf)                    size: 32878 bytes
 (epstopdf)             Command: <epstopdf --outfile=AM0-eps-converted-to.pdf AM
 0.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
-<AM0-eps-converted-to.pdf, id=151, 560.0925pt x 441.65pt>
+<AM0-eps-converted-to.pdf, id=244, 560.0925pt x 441.65pt>
 File: AM0-eps-converted-to.pdf Graphic file (type pdf)
 <use AM0-eps-converted-to.pdf>
-Package pdftex.def Info: AM0-eps-converted-to.pdf  used on input line 115.
+Package pdftex.def Info: AM0-eps-converted-to.pdf  used on input line 139.
 (pdftex.def)             Requested size: 208.95485pt x 164.76921pt.
- [5
+ [8
 
- <./AM0-eps-converted-to.pdf>] [6
+ <./AM0-eps-converted-to.pdf>] [9
 
 ]
-[7
+[10
 
-] [8
-
-] [9
+] [11
 
 ]
 Package epstopdf Info: Source file: <thermal_conductivity.eps>
@@ -1480,24 +1515,24 @@ Package epstopdf Info: Source file: <thermal_conductivity.eps>
 (epstopdf)                    size: 29287 bytes
 (epstopdf)             Command: <epstopdf --outfile=thermal_conductivity-eps-co
 nverted-to.pdf thermal_conductivity.eps>
-(epstopdf)             \includegraphics on input line 145.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
-<thermal_conductivity-eps-converted-to.pdf, id=305, 421.575pt x 316.18124pt>
+<thermal_conductivity-eps-converted-to.pdf, id=367, 421.575pt x 316.18124pt>
 File: thermal_conductivity-eps-converted-to.pdf Graphic file (type pdf)
 <use thermal_conductivity-eps-converted-to.pdf>
 Package pdftex.def Info: thermal_conductivity-eps-converted-to.pdf  used on inp
-ut line 145.
+ut line 166.
 (pdftex.def)             Requested size: 276.559pt x 207.42105pt.
- [10
+ [12
 
- <./thermal_conductivity-eps-converted-to.pdf>] [11
-
-] [12
-
-]
-[13
+ <./thermal_conductivity-eps-converted-to.pdf>] [13
 
 ] [14
+
+] [15
+
+]
+[16
 
 ]
 Package epstopdf Info: Source file: <Regolith_Pulse.eps>
@@ -1508,15 +1543,15 @@ Package epstopdf Info: Source file: <Regolith_Pulse.eps>
 (epstopdf)                    size: 157333 bytes
 (epstopdf)             Command: <epstopdf --outfile=Regolith_Pulse-eps-converte
 d-to.pdf Regolith_Pulse.eps>
-(epstopdf)             \includegraphics on input line 209.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
-<Regolith_Pulse-eps-converted-to.pdf, id=451, 421.575pt x 316.18124pt>
+<Regolith_Pulse-eps-converted-to.pdf, id=513, 421.575pt x 316.18124pt>
 File: Regolith_Pulse-eps-converted-to.pdf Graphic file (type pdf)
 <use Regolith_Pulse-eps-converted-to.pdf>
 Package pdftex.def Info: Regolith_Pulse-eps-converted-to.pdf  used on input lin
-e 209.
+e 230.
 (pdftex.def)             Requested size: 230.46739pt x 172.85329pt.
- [15
+ [17
 
  <./Regolith_Pulse-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Processed_Regolith.eps>
@@ -1527,15 +1562,15 @@ Package epstopdf Info: Source file: <Processed_Regolith.eps>
 (epstopdf)                    size: 73431 bytes
 (epstopdf)             Command: <epstopdf --outfile=Processed_Regolith-eps-conv
 erted-to.pdf Processed_Regolith.eps>
-(epstopdf)             \includegraphics on input line 217.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
-<Processed_Regolith-eps-converted-to.pdf, id=487, 421.575pt x 316.18124pt>
+<Processed_Regolith-eps-converted-to.pdf, id=549, 421.575pt x 316.18124pt>
 File: Processed_Regolith-eps-converted-to.pdf Graphic file (type pdf)
 <use Processed_Regolith-eps-converted-to.pdf>
 Package pdftex.def Info: Processed_Regolith-eps-converted-to.pdf  used on input
- line 217.
+ line 238.
 (pdftex.def)             Requested size: 230.46739pt x 172.85329pt.
- [16
+ [18
 
  <./Processed_Regolith-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <bags.eps>
@@ -1546,14 +1581,14 @@ Package epstopdf Info: Source file: <bags.eps>
 (epstopdf)                    size: 121117 bytes
 (epstopdf)             Command: <epstopdf --outfile=bags-eps-converted-to.pdf b
 ags.eps>
-(epstopdf)             \includegraphics on input line 226.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
-<bags-eps-converted-to.pdf, id=522, 322.20375pt x 128.48pt>
+<bags-eps-converted-to.pdf, id=584, 322.20375pt x 128.48pt>
 File: bags-eps-converted-to.pdf Graphic file (type pdf)
 <use bags-eps-converted-to.pdf>
-Package pdftex.def Info: bags-eps-converted-to.pdf  used on input line 226.
+Package pdftex.def Info: bags-eps-converted-to.pdf  used on input line 247.
 (pdftex.def)             Requested size: 230.46739pt x 91.90366pt.
- [17
+ [19
 
  <./bags-eps-converted-to.pdf>]
 Missing character: There is no Ã in font cmss10!
@@ -1561,7 +1596,7 @@ Missing character: There is no ¡ in font cmss10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18
+ [20
 
  <C:/Users/admin/AppData/Local/Programs/MiKTeX 2.9/tex/latex/beamer/beamericona
 rticle.pdf>]
@@ -1574,7 +1609,7 @@ Missing character: There is no “ in font cmss10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [21]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no “ in font cmss10!
@@ -1587,8 +1622,8 @@ Missing character: There is no “ in font cmss10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21]
+ [22]
+[23]
 \tf@nav=\write6
 \openout6 = `Presentation_2.nav'.
 
@@ -1598,19 +1633,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@snm=\write8
 \openout8 = `Presentation_2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
  (Presentation_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 340.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
 Package rerunfilecheck Info: File `Presentation_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29892 strings out of 493303
- 582347 string characters out of 3129785
+ 29910 strings out of 493303
+ 582739 string characters out of 3129785
  675427 words of memory out of 3000000
- 32885 multiletter control sequences out of 15000+200000
+ 32897 multiletter control sequences out of 15000+200000
  538362 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,55p,10383b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1628,9 +1663,9 @@ s/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/admin/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/admin/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/admin/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Presentation_2.pdf (21 pages, 1337281 bytes).
+Output written on Presentation_2.pdf (23 pages, 1582782 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 785 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
